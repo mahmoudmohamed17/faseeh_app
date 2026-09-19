@@ -1,12 +1,22 @@
+import 'dart:developer';
+
 import 'package:flutter/cupertino.dart';
 import 'package:go_router/go_router.dart';
 
+import '../../features/splash/splash_screen.dart';
 import 'app_routes.dart';
 
 class AppRouter {
   static final router = GoRouter(
     routes: [
-      _route(AppRoutes.splash, (context, state) => const Placeholder()),
+      _route(
+        AppRoutes.splash,
+        (context, state) => SplashScreen(
+          onCompleted: () {
+            log('Done!');
+          },
+        ),
+      ),
     ],
   );
 

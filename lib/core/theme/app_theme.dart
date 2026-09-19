@@ -32,7 +32,7 @@ class AppTheme {
         margin: EdgeInsets.zero,
         shape: RoundedRectangleBorder(
           borderRadius: BorderRadius.circular(16),
-          side: const BorderSide(color: AppColors.divider, width: 1),
+          side: const BorderSide(color: AppColors.divider),
         ),
       ),
 
@@ -109,17 +109,6 @@ class AppTheme {
             const BorderSide(color: AppColors.border),
           ),
         ),
-      ),
-
-      bottomNavigationBarTheme: BottomNavigationBarThemeData(
-        backgroundColor: AppColors.surface,
-        selectedItemColor: AppColors.primary,
-        unselectedItemColor: AppColors.navInactive,
-        selectedLabelStyle: AppTypography.caption,
-        unselectedLabelStyle: AppTypography.caption,
-        showUnselectedLabels: true,
-        type: BottomNavigationBarType.fixed,
-        elevation: 8,
       ),
 
       dividerTheme: const DividerThemeData(

@@ -1,7 +1,8 @@
 import 'package:easy_localization/easy_localization.dart';
-import 'package:faseeh_app/core/utils/extensions.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter/material.dart';
+
+import '../utils/extensions.dart';
 
 class CustomElevatedButton extends StatelessWidget {
   final String text;
