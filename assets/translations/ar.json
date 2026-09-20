@@ -1,1 +1,192 @@
-{}
+{
+    "app": {
+        "name": "فصيح",
+        "tagline": "مساعدك الذكي للكتابة العربية السليمة",
+        "logo_letter": "ف",
+        "version": "الإصدار 1.0.0",
+        "mode_badge": "فصحى"
+    },
+    "nav": {
+        "home": "الرئيسية",
+        "editor": "محرر",
+        "stats": "إحصاءات",
+        "settings": "إعدادات"
+    },
+    "page_titles": {
+        "home": "فصيح",
+        "editor": "تحرير النص",
+        "stats": "إحصاءات",
+        "settings": "الإعدادات"
+    },
+    "onboarding": {
+        "skip": "تخطّي",
+        "start": "ابدأ الآن",
+        "title": "فصيح — كتابتك بلمسة إتقان",
+        "description": "فصيح مساعدك الذكي للكتابة العربية السليمة. يراجع إملاءك ونحوك وأسلوبك في لحظات، ويقترح عليك صياغات أوضح وأرقى — وانت تقرر تقبل ولا تتجاهل. مع فصيح، كل نص تكتبه يبقى أقرب للاحتراف."
+    },
+    "home": {
+        "greeting": "مرحباً بك",
+        "greeting_emoji": "👋",
+        "subtitle": "ما الذي تريد فحصه اليوم؟",
+        "cta_title": "فحص نص جديد",
+        "cta_subtitle": "الصق نصك أو اكتبه مباشرة",
+        "recent_docs": "المستندات الأخيرة",
+        "view_all": "عرض الكل",
+        "tip_label": "نصيحة اليوم",
+        "tip_body": "استخدم «حيث» بحذر — كثيراً ما تُستبدل بـ«إذ» أو «لأنّ» لتُعطي الجملة وضوحاً أكبر في الكتابة الرسمية.",
+        "stats": {
+            "texts_checked": "نص فُحص",
+            "errors_fixed": "خطأ صُحِّح",
+            "your_score": "تقييمك"
+        },
+        "doc_dates": {
+            "today": "اليوم",
+            "yesterday": "أمس",
+            "days_ago": "أيام"
+        }
+    },
+    "editor": {
+        "mode_write": "كتابة",
+        "mode_upload": "رفع ملف",
+        "academic_mode": "أكاديمي",
+        "academic_mode_banner": "وضع الكتابة الأكاديمية — يُركز على الدقة المصطلحية والأسلوب الرسمي",
+        "view_diff": "مقارنة",
+        "accept_all": "قبول الكل",
+        "check_button": "فحص النص",
+        "recheck_button": "إعادة الفحص",
+        "checking": "جارٍ الفحص...",
+        "no_errors": "✓ النص خالٍ من الأخطاء",
+        "char_count_suffix": "حرف",
+        "placeholder": "الصق نصك هنا أو اكتب مباشرة...",
+        "suggestion_apply": "تطبيق",
+        "suggestion_dismiss": "تجاهل",
+        "upload": {
+            "drop_active": "أفلت الملف هنا",
+            "drop_idle": "اسحب ملفك أو انقر للرفع",
+            "size_hint": "حجم أقصى 2 ميغابايت",
+            "supported_formats_hint": ".txt · .md · .doc · .docx",
+            "success": "تم رفع الملف",
+            "remove": "إزالة",
+            "error_format": "صيغة الملف غير مدعومة. يُرجى رفع ملف .txt أو .docx أو .md",
+            "error_size": "حجم الملف كبير جداً. الحد الأقصى 2 ميغابايت"
+        }
+    },
+    "suggestion_types": {
+        "error": {
+            "label": "إملائي",
+            "description": "خطأ إملائي"
+        },
+        "grammar": {
+            "label": "نحوي",
+            "description": "خطأ نحوي"
+        },
+        "style": {
+            "label": "أسلوبي",
+            "description": "اقتراح أسلوبي"
+        },
+        "formal": {
+            "label": "رسمي",
+            "description": "بديل رسمي"
+        }
+    },
+    "diff": {
+        "title": "مقارنة التغييرات",
+        "view_split": "جنباً",
+        "view_inline": "مدمج",
+        "original_panel": "النص الأصلي",
+        "corrected_panel": "النص المُصحَّح",
+        "after_correction": "بعد التصحيح",
+        "suggested_changes": "التغييرات المقترحة",
+        "accept": "قبول",
+        "accept_all": "قبول الكل",
+        "accepted_all": "تم القبول",
+        "copy": "نسخ النص",
+        "copied": "تم النسخ",
+        "legend_removed": "محذوف",
+        "legend_added": "مُضاف",
+        "stat_suffix": {
+            "error": "إملائي",
+            "grammar": "نحوي",
+            "style": "أسلوبي",
+            "formal": "رسمي"
+        }
+    },
+    "stats": {
+        "title": "إحصاءات الكتابة",
+        "subtitle": "تتبع تقدمك عبر الزمن",
+        "overall_score": "تقييمك الإجمالي",
+        "out_of": "من 100",
+        "texts_checked": "نص مفحوص",
+        "errors_fixed": "خطأ صُحِّح",
+        "improvement": "تحسّن",
+        "weekly_errors_title": "الأخطاء الأسبوعية",
+        "weeks_subtitle": "الأسابيع الـ 6 الماضية",
+        "week_prefix": "الأسبوع",
+        "breakdown_title": "توزيع الأخطاء",
+        "achievements_title": "الإنجازات",
+        "legend": {
+            "error": "إملائي",
+            "grammar": "نحوي",
+            "style": "أسلوبي"
+        },
+        "achievements": {
+            "first_check": "أول تصحيح",
+            "seven_day_streak": "7 أيام متواصلة",
+            "hundred_words": "100 كلمة",
+            "score_90": "تقييم 90+",
+            "no_errors": "بلا أخطاء",
+            "language_master": "أستاذ اللغة"
+        }
+    },
+    "settings": {
+        "title": "الإعدادات",
+        "subtitle": "خصّص تجربة فصيح",
+        "profile_name": "مستخدم فصيح",
+        "member_since": "عضو منذ سبتمبر 2026",
+        "sections": {
+            "writing_preferences": "تفضيلات الكتابة",
+            "export": "التصدير",
+            "privacy": "الخصوصية"
+        },
+        "tone": {
+            "label": "النبرة الافتراضية",
+            "formal": "رسمي",
+            "informal": "غير رسمي"
+        },
+        "toggles": {
+            "academic_mode": {
+                "label": "الوضع الأكاديمي افتراضياً",
+                "sublabel": "فحص الاتساق المصطلحي والتكرار"
+            },
+            "auto_check": {
+                "label": "الفحص التلقائي",
+                "sublabel": "فحص النص أثناء الكتابة"
+            },
+            "show_explanations": {
+                "label": "عرض الشرح التفصيلي",
+                "sublabel": "اعرض سبب كل اقتراح مع التصحيح"
+            }
+        },
+        "export_format": "صيغة التصدير",
+        "privacy": {
+            "title": "سياسة الخصوصية",
+            "body": "نصوصك لا تُحفظ على خوادمنا بعد معالجة طلب التصحيح. البيانات المحلية فقط تُخزَّن على جهازك."
+        }
+    },
+    "sample_data": {
+        "docs": {
+            "doc1_title": "مقال التخرج — مناهج التعليم",
+            "doc1_preview": "إن التعليم هو الركيزة الأساسية...",
+            "doc2_title": "رسالة رسمية إلى الإدارة",
+            "doc2_preview": "السيد المدير، تحية طيبة وبعد...",
+            "doc3_title": "تقرير أسبوعي — المشروع",
+            "doc3_preview": "يسعدنا تقديم التقرير الأسبوعي..."
+        },
+        "suggestions": {
+            "s1_explanation": "«بليغاً» أكثر دقةً وملاءمةً في السياق الأكاديمي الرسمي، إذ تحمل معنى العمق والإحكام.",
+            "s2_explanation": "«تهذيب» تحمل بُعداً تربوياً أثرى، و«ملكاته» بدلاً من «قدراته» أدق في الفلسفة التربوية.",
+            "s3_explanation": "«الرائدة» أكثر حيادية وأدق علمياً من «المتحضرة» التي قد تحمل إيحاءات استشراقية.",
+            "s4_explanation": "الصياغة الأصح تستخدم «أنواع الاستثمار» للإشارة إلى الجنس لا المفرد."
+        }
+    }
+}

@@ -65,6 +65,7 @@ class AppTheme {
           shape: RoundedRectangleBorder(
             borderRadius: BorderRadius.circular(14),
           ),
+          shadowColor: Colors.transparent,
           textStyle: AppTypography.button,
         ),
       ),

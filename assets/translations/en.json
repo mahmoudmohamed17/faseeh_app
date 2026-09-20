@@ -1,1 +1,192 @@
-{}
+{
+    "app": {
+        "name": "Faseeh",
+        "tagline": "Your intelligent Arabic writing assistant",
+        "logo_letter": "ف",
+        "version": "Version 1.0.0",
+        "mode_badge": "Fusha"
+    },
+    "nav": {
+        "home": "Home",
+        "editor": "Editor",
+        "stats": "Stats",
+        "settings": "Settings"
+    },
+    "page_titles": {
+        "home": "Faseeh",
+        "editor": "Edit Text",
+        "stats": "Statistics",
+        "settings": "Settings"
+    },
+    "onboarding": {
+        "skip": "Skip",
+        "start": "Get started",
+        "title": "Faseeh — Writing, Perfected",
+        "description": "Faseeh is your smart Arabic writing assistant. It checks your spelling, grammar, and style in seconds, and suggests clearer, more polished alternatives — you decide what to accept. With Faseeh, every piece of writing gets a little closer to professional."
+    },
+    "home": {
+        "greeting": "Welcome back",
+        "greeting_emoji": "👋",
+        "subtitle": "What would you like to check today?",
+        "cta_title": "Check new text",
+        "cta_subtitle": "Paste your text or type directly",
+        "recent_docs": "Recent documents",
+        "view_all": "View all",
+        "tip_label": "Tip of the day",
+        "tip_body": "Use «حيث» carefully — it can often be replaced by «إذ» or «لأنّ» to give the sentence greater clarity in formal writing.",
+        "stats": {
+            "texts_checked": "Texts checked",
+            "errors_fixed": "Errors fixed",
+            "your_score": "Your score"
+        },
+        "doc_dates": {
+            "today": "Today",
+            "yesterday": "Yesterday",
+            "days_ago": "days ago"
+        }
+    },
+    "editor": {
+        "mode_write": "Write",
+        "mode_upload": "Upload file",
+        "academic_mode": "Academic",
+        "academic_mode_banner": "Academic writing mode — focuses on terminological precision and formal style",
+        "view_diff": "Compare",
+        "accept_all": "Accept all",
+        "check_button": "Check text",
+        "recheck_button": "Re-check",
+        "checking": "Checking...",
+        "no_errors": "✓ Text is error-free",
+        "char_count_suffix": "chars",
+        "placeholder": "Paste your text here or type directly...",
+        "suggestion_apply": "Apply",
+        "suggestion_dismiss": "Dismiss",
+        "upload": {
+            "drop_active": "Drop the file here",
+            "drop_idle": "Drag your file or click to upload",
+            "size_hint": "Max size 2 MB",
+            "supported_formats_hint": ".txt · .md · .doc · .docx",
+            "success": "File uploaded",
+            "remove": "Remove",
+            "error_format": "Unsupported file format. Please upload a .txt, .docx, or .md file.",
+            "error_size": "File is too large. Maximum size is 2 MB."
+        }
+    },
+    "suggestion_types": {
+        "error": {
+            "label": "Spelling",
+            "description": "Spelling error"
+        },
+        "grammar": {
+            "label": "Grammar",
+            "description": "Grammar error"
+        },
+        "style": {
+            "label": "Style",
+            "description": "Style suggestion"
+        },
+        "formal": {
+            "label": "Formal",
+            "description": "Formal alternative"
+        }
+    },
+    "diff": {
+        "title": "Review changes",
+        "view_split": "Side by side",
+        "view_inline": "Inline",
+        "original_panel": "Original text",
+        "corrected_panel": "Corrected text",
+        "after_correction": "After correction",
+        "suggested_changes": "Suggested changes",
+        "accept": "Accept",
+        "accept_all": "Accept all",
+        "accepted_all": "All accepted",
+        "copy": "Copy text",
+        "copied": "Copied",
+        "legend_removed": "Removed",
+        "legend_added": "Added",
+        "stat_suffix": {
+            "error": "spelling",
+            "grammar": "grammar",
+            "style": "style",
+            "formal": "formal"
+        }
+    },
+    "stats": {
+        "title": "Writing statistics",
+        "subtitle": "Track your progress over time",
+        "overall_score": "Overall score",
+        "out_of": "out of 100",
+        "texts_checked": "Texts checked",
+        "errors_fixed": "Errors fixed",
+        "improvement": "Improvement",
+        "weekly_errors_title": "Weekly errors",
+        "weeks_subtitle": "Past 6 weeks",
+        "week_prefix": "Week",
+        "breakdown_title": "Error breakdown",
+        "achievements_title": "Achievements",
+        "legend": {
+            "error": "Spelling",
+            "grammar": "Grammar",
+            "style": "Style"
+        },
+        "achievements": {
+            "first_check": "First correction",
+            "seven_day_streak": "7-day streak",
+            "hundred_words": "100 words",
+            "score_90": "Score 90+",
+            "no_errors": "Error-free",
+            "language_master": "Language master"
+        }
+    },
+    "settings": {
+        "title": "Settings",
+        "subtitle": "Customize your Faseeh experience",
+        "profile_name": "Faseeh user",
+        "member_since": "Member since September 2026",
+        "sections": {
+            "writing_preferences": "Writing preferences",
+            "export": "Export",
+            "privacy": "Privacy"
+        },
+        "tone": {
+            "label": "Default tone",
+            "formal": "Formal",
+            "informal": "Informal"
+        },
+        "toggles": {
+            "academic_mode": {
+                "label": "Academic mode by default",
+                "sublabel": "Check terminology consistency and repetition"
+            },
+            "auto_check": {
+                "label": "Auto-check",
+                "sublabel": "Check text while typing"
+            },
+            "show_explanations": {
+                "label": "Show detailed explanations",
+                "sublabel": "Display the reason for each suggestion alongside the correction"
+            }
+        },
+        "export_format": "Export format",
+        "privacy": {
+            "title": "Privacy policy",
+            "body": "Your texts are not retained on our servers after processing a correction request. Only local data is stored on your device."
+        }
+    },
+    "sample_data": {
+        "docs": {
+            "doc1_title": "Graduation essay — Education curricula",
+            "doc1_preview": "Education is the fundamental pillar...",
+            "doc2_title": "Formal letter to administration",
+            "doc2_preview": "Dear Director, greetings...",
+            "doc3_title": "Weekly project report",
+            "doc3_preview": "We are pleased to present the weekly report..."
+        },
+        "suggestions": {
+            "s1_explanation": "«بليغاً» is more precise and appropriate in a formal academic context, conveying depth and eloquence.",
+            "s2_explanation": "«تهذيب» carries a richer pedagogical dimension, and «ملكاته» instead of «قدراته» is more accurate in educational philosophy.",
+            "s3_explanation": "«الرائدة» (pioneering) is more neutral and academically precise than «المتحضرة» (civilized), which can carry Orientalist connotations.",
+            "s4_explanation": "The correct phrasing uses «أنواع الاستثمار» to refer to the category rather than a singular instance."
+        }
+    }
+}

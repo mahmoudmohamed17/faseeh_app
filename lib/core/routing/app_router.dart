@@ -1,8 +1,7 @@
-import 'dart:developer';
-
 import 'package:flutter/cupertino.dart';
 import 'package:go_router/go_router.dart';
 
+import '../../features/onboarding/views/onboarding_screen.dart';
 import '../../features/splash/splash_screen.dart';
 import 'app_routes.dart';
 
@@ -13,9 +12,13 @@ class AppRouter {
         AppRoutes.splash,
         (context, state) => SplashScreen(
           onCompleted: () {
-            log('Done!');
+            context.go(AppRoutes.onboarding);
           },
         ),
+      ),
+      _route(
+        AppRoutes.onboarding,
+        (context, state) => const OnboardingScreen(),
       ),
     ],
   );
